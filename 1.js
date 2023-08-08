@@ -1,3 +1,3 @@
-function deductNumber git commit -m (a,b) {
+function deductNumber (a,b) {
   return a + b;
 }
