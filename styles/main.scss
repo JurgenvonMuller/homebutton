@@ -1,0 +1,92 @@
+// .box {
+//   /* Обычные стили для блока */
+//   width: 200px;
+//   height: 200px;
+//   background-color: red;
+//   margin: 50px;
+
+// }
+
+// // /* Медиазапрос для экранов с максимальной шириной 900px */
+// // @media (max-width: 900px) {
+// //   .box {
+// //     /* Стили, применяемые при ширине экрана меньше или равной 900px */
+// //     background-color: blue;
+// //   }
+// // }
+// //   @media (max-width: 700px) {
+// //     .box {
+// //     width: 150px;
+// //     height: 100px;
+// //   }
+// // }
+
+// .svg-container { 
+// 	display: inline-block;
+// 	position: relative;
+// 	width: 100%;
+// 	padding-bottom: 100%; 
+// 	vertical-align: middle; 
+// 	overflow: hidden; 
+// }
+
+// .svg-content { 
+// 	display: inline-block;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 50%;
+// }
+// // @media (max-width: 575px) { ... }
+// // @media (min-width: 576px) and (max-width: 767px) { ... }
+// // @media (min-width: 768px) and (max-width: 991px) { ... }
+// // @media (min-width: 992px) and (max-width: 1199px) { ... }
+// // @media (min-width: 1200px) { ... }
+.wrapper {
+  margin: 0 auto;
+  .box {
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    color:white;
+  }
+  
+  .one {
+    margin: 20px;
+    background-color: gray;
+    flex: 2;
+    font-size: 50px;
+  }
+  .two {
+    margin: 20px;
+    background-color: black;
+    font-size: 50px;
+    flex: 2;
+  }
+  .three {
+    margin: 20px;
+    background-color: black;
+    flex: 2;
+    font-size: 50px;
+  }
+}
+// .wrapper .box:nth-child(even) {
+//   .one { order:2;}
+//   .two {order:1;}
+// }
+
+.min-content {
+  width: min-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+.max-content {
+  width: max-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+.col-container {
+  display: flex;
+  width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+}

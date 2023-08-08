@@ -1,0 +1,49 @@
+.wrapper {
+  margin: 0 auto;
+}
+.wrapper .box {
+  display: flex;
+  background-color: yellow;
+  align-items: center;
+  color: white;
+}
+.wrapper .one {
+  margin: 20px;
+  background-color: gray;
+  flex: 2;
+  font-size: 50px;
+}
+.wrapper .two {
+  margin: 20px;
+  background-color: black;
+  font-size: 50px;
+  flex: 2;
+}
+.wrapper .three {
+  margin: 20px;
+  background-color: black;
+  flex: 2;
+  font-size: 50px;
+}
+
+.min-content {
+  width: -moz-min-content;
+  width: min-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+.max-content {
+  width: -moz-max-content;
+  width: max-content;
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+  padding: 16px;
+}/*# sourceMappingURL=main.css.map */
